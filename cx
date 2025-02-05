@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>公务员考试报名系统</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { display: flex; justify-content: space-between; }
+        .nav-bar { margin: 20px 0; }
+        .nav-bar ul { list-style: none; padding: 0; }
+        .nav-bar li { display: inline-block; margin-right: 25px; }
+        .section { margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        dl { display: grid; grid-template-columns: max-content auto; gap: 10px 20px; }
+        dt { font-weight: bold; }
+        .warning { color: #c00; background: #ffe5e5; padding: 10px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>19:28</div>
+        <div>5G</div>
+    </div>
+
+    <div class="date-greeting">2025年2月05日 星期三 朱伟，晚上好！</div>
+
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">招考公告</a></li>
+            <li><a href="#">政策法规</a></li>
+            <li><a href="#">常见问题</a></li>
+            <li><a href="#">相关下载</a></li>
+        </ul>
+    </nav>
+
+    <section class="section">
+        <h2>报考职位信息</h2>
+        <dl>
+            <dt>招录机关：国家审计署</dt><dd>（118308）</dd>
+            <dt>用人司局：审计署驻南京特派员办事处</dt><dd></dd>
+            <dt>招考人数：3</dt><dd>1</dd>
+            <dt>职位代码：645846918</dt><dd>300110001004</dd>
+            <dt>面试比例：</dt><dd>3:1</dd>
+        </dl>
+        <button>查看职位信息</button>
+        <button>打印考生信息表</button>
+    </section>
+
+    <section class="section">
+        <h2>笔试成绩</h2>
+        <dl>
+            <dt>行测成绩：</dt><dd>70.9</dd>
+            <dt>申论成绩：</dt><dd>70.5</dd>
+            <dt>公共科目总成绩：</dt><dd>141.4</dd>
+        </dl>
+    </section>
+
+    <section class="section">
+        <h2>资格审查</h2>
+        <dl>
+            <dt>审核状态：</dt><dd>审核通过</dd>
+            <dt>报名序号：</dt><dd>202401145141</dd>
+            <dt>审核时间：</dt><dd>2024-10-22</dd>
+        </dl>
+        <div class="warning">
+            符合职位要求，已进入面试资格。<br>
+            感谢您的报考，若您进入面试，面试前将要进行资格复审...
+        </div>
+    </section>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
